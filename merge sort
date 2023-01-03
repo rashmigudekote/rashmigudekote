@@ -1,0 +1,114 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+//define size of array
+#define SIZE 200
+
+int array1[SIZE]; //array1 will be our input array
+int array2[SIZE]; //array2 will be our secondary arrayl
+void merge(int low, int mid, int high) //sort elements of divided arrays and then merge them
+{
+    int i, j, k;
+
+    for(i=low, j=mid+1, k=low; i<=mid && j<=high; k++) /*
+ * "i" keeps track of first divided array, j keeps track of elements in second part of array, k will be for our secondary array*/
+    {
+        if(array1[i]<array1[j]) //pick out the lower element
+        {
+            array2[k]=array1[i++];
+        }
+        else    //pick out the lower element
+        {
+            array2[k] = array1[j++];
+        }
+    }
+    while(i<=mid)   //if second part of array gets exhausted first
+    {
+        array2[k++]=array1[i++];
+    }
+    while(j<=high)  //if first part gets exhausted first
+    {
+        array2[k++]=array1[j++];
+    }
+
+    for (int l = 0; l <high+1 ; ++l)    //copy elements of array2 to array1
+    {
+        array1[l]=array2[l];
+    }
+}
+
+void sort(int low, int high)
+{
+    //check for number of elements!=1
+    if(low < high)    
+    {
+        //define mid element
+        int mid= (low + high)/2;
+        
+        //call sort for half part of array
+        sort(low,mid); 
+    
+        // call sort for second half
+        sort(mid+1, high);
+        
+        //merge both
+        merge(low, mid, high);
+    }
+    else {
+        //return null when only one element is there
+        return; 
+    }
+}
+
+int main() {
+    // Number Of Elements To Be Sorted.
+    int limit;
+    
+    // Temporary and Interation Variable For 
+    int i, j, m, pos;
+    
+    // Variable Required For Swapping Purpose
+    int temp;
+    
+    printf("Enter The Number Of Element For Sorting : ");
+    scanf("%d", &limit);
+    
+    printf("Enter %d Elements For Sorting : \n",limit);
+    for(i = 0; i < limit; i++) {
+        int position = i + 1;
+        printf("[%d] : ", position);
+        scanf("%d", &array1[i]);
+    }
+    
+    printf("Before Sorting List\n");
+    for(i = 0; i < limit; i++) {
+        if(i == 0) {
+            printf("[");
+            printf("%d, ",array1[i]);
+        }
+        else if(i == limit-1){
+            printf("%d",array1[i]);
+            printf("]");
+        }
+        else {
+            printf("%d, ",array1[i]);
+        }
+    }
+    
+    // Sorting Purpose
+    sort(0, limit - 1);
+    
+    printf("\n\n\nAfter Sorting List\n");
+    for(i = 0; i < limit; i++) {
+        if(i == 0) {
+            printf("[");
+            printf("%d, ",array1[i]);
+        }
+        else if(i == limit-1){
+            printf("%d",array1[i]);
+            printf("]");
+        }
+        else {
+            printf("%d, ",array1[i]);
+        }
+    }
+}
