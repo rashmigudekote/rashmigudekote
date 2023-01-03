@@ -1,0 +1,90 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Number Of Elements To Be Sorted.
+    int limit;
+    
+    // Arrays Elements and Its Maximum Size
+    int array[200];
+    
+    // Temporary and Interation Variable For 
+    int i, j, m;
+    
+    // Variable Required For Swapping Purpose
+    int temp;
+    
+    printf("Enter The Number Of Element For Sorting : ");
+    scanf("%d", &limit);
+    
+    printf("Enter %d Elements For Sorting : \n",limit);
+    for(i = 0; i < limit; i++) {
+        int position = i + 1;
+        printf("[%d] : ", position);
+        scanf("%d", &array[i]);
+    }
+    
+    printf("Before Sorting List\n");
+    for(i = 0; i < limit; i++) {
+        if(i == 0) {
+            printf("[");
+            printf("%d, ",array[i]);
+        }
+        else if(i == limit-1){
+            printf("%d",array[i]);
+            printf("]");
+        }
+        else {
+            printf("%d, ",array[i]);
+        }
+    }
+    
+    quicksort(array, 0 ,limit-1);
+    
+    printf("\n\n\nAfter Sorting List\n");
+    for(i = 0; i < limit; i++) {
+        if(i == 0) {
+            printf("[");
+            printf("%d, ",array[i]);
+        }
+        else if(i == limit-1){
+            printf("%d",array[i]);
+            printf("]");
+        }
+        else {
+            printf("%d, ",array[i]);
+        }
+    }
+}
+
+
+void quicksort(int array[200], int first, int last) {
+    int i, j, pivot, temp;
+    
+    if(first < last){
+      pivot = first;
+      i = first;
+      j = last;
+
+      while(i < j){
+         while(array[i] <= array[pivot] && i < last) {
+            i++; 
+         }
+            
+         while(array[j] > array[pivot]) {
+             j--;
+         }
+         if(i < j){
+            temp = array[i];
+            array[i] = array[j];
+            array[j] = temp;
+         }
+      }
+
+      temp = array[pivot];
+      array[pivot] = array[j];
+      array[j] = temp;
+      quicksort(array, first, j-1);
+      quicksort(array, j+1, last);
+   }
+}
