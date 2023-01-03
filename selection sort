@@ -1,0 +1,65 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Intiailize Value For Selection Sorting Purpose
+    int limit, i, j;
+    
+    // Declare A Variable For Postioning Of Individual Elements
+    int position, swap;
+    
+    // Intialize A Max Array For Sorting Purpose
+    int args[100];
+    
+    printf("Please Enter The Number Of Elements To Be Sorted : ");
+    scanf("%d", &limit);
+    
+    printf("\nPlease Enter The %d Numerics To Be Sorted.\n", limit);
+    
+    for (i = 0; i < limit; i++) {
+        printf("Element : [%d] : ", i);
+        scanf("%d", &args[i]);    
+    }
+    
+    // Print Elements Before Sorting
+    printf("\n\nBefore Sorting\n[");
+    for(i=0; i < limit; i++) {
+        if(i == limit-1) {
+            printf("%d", args[i]);
+        }
+        else {
+            printf("%d, ", args[i]);
+        }
+    }
+    printf("]\n");
+    
+    // Selection Sorting
+    for (i = 0; i < (limit - 1); i++) {
+        position = i;
+        for (j = i + 1; j < limit; j++)
+        {
+            if (args[position] > args[j]) {
+                position = j;
+            }
+            if (position != i)
+            {
+                swap = args[i];
+                args[i] = args[position];
+                args[position] = swap;
+            }
+        }
+    }
+    
+    // Print Elements After Sorting
+    printf("\n\nAfter Sorting\n[");
+    for(i=0; i < limit; i++) {
+        if(i == limit-1) {
+            printf("%d", args[i]);
+        }
+        else {
+            printf("%d, ", args[i]);
+        }
+    }
+    printf("]\n");
+}
+
