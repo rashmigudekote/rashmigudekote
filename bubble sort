@@ -1,0 +1,71 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+void main() {
+    // Let set the default size for the array for sorting
+    int setone[100];
+
+    // Let set custom size for the array for sorting
+    int limit, x, y, z, temp;
+
+    printf("Please Enter The Size For Array - For Sorting: ");
+    scanf("%d", &limit);
+
+    printf("Size Of Array : %d", limit);
+
+    // Now Getting The List Of Number For Sorting
+    printf("\nPlease Enter Your Elements. \n");
+
+//    int x, y;
+    for(x=0; x < limit; x++) {
+	printf("[%d] : ", x);
+	scanf("%d", &setone[x]);
+    }
+
+    // Printing All Array Elements Before Sorting
+    printf("\n\nBefore Sorting\n[");
+    for(x=0; x < limit; x++) {
+	if(x == limit-1) {
+	    printf("%d", setone[x]);
+	}
+	else {
+	    printf("%d, ", setone[x]);
+	}
+    }
+    printf("]\n");
+
+//    int temp;
+
+    // Perform Sorting Operations
+    for(x = 0; x < limit - 1; x++){
+	for(y = 0; y < limit - x - 1; y++) {
+	    if(setone[y] > setone[y + 1]){
+		temp = setone[y];
+		setone[y] = setone[y + 1];
+		setone[y + 1] = temp;
+	    }
+//            printf("\nWhile Sorting\n[");
+  //          for(z=0; z < limit; z++) {
+    //            if(z == limit-1) {
+      //              printf("%d", setone[z]);
+	//        }
+	  //      else {
+	    //        printf("%d, ", setone[z]);
+   //		}
+     //	    }
+       //	    printf("]\n");
+	}
+    }
+
+    // Printing All Array Elements After Sorting
+    printf("\nAfter Sorting\n[");
+    for(x=0; x < limit; x++) {
+        if(x == limit-1) {
+            printf("%d", setone[x]);
+        }
+        else {
+            printf("%d, ", setone[x]); 
+        }
+    }
+    printf("]\n");
+}
