@@ -1,0 +1,17 @@
+data structure can also be classified as
+static data structure: it is a type of data structure where the size is allocated at the compile time.Therefore,the maximum size is fixed.
+dynamic data structure:it is a type of data structure where the size is allocated at the run time.Therefore,therefore the maximum size is flexiable.
+The major or the common operation that can be performed on the data structures are:
+Serchung:we can sort the elements a data structure.
+Sorting:we can sort the elements of a data structure either in ascending or descending order.
+Insertion:we can also onsert the new elements in a data structure.
+updation:we can also update the element,i.e., we can replace the elements in a data structure.
+Deletion:we can also perform the delete operation to remove the element from the data structure.
+data structure is a way of organizing the data so that it can be used efficiently.Here ,we have used the word efficiently,which in terms of both th space and time
+for example,a stack is an ADT(abstract datatype)which usd either arrays or linked list data structure for the implementation.Therefore,we conclude that we require some 
+data structure to implement a particular ADT.
+An ADT tells what is to be done and data structure tells hoe it is to be done.In other words ,we can say that ADTgives us the blueprint while data structure  provides 
+the implementation part.now the question arrises :how can one get to know which data structure to be usd for a perticular ADT?
+As the different data sdtructure can be implemented in a paricular ADT,but the different implementations are compared for time and space. for example,the stack
+ADT can be implemented by both array and linked list.
+supposwe the arrays and linked lidt is providing space efficiency,so the one which is the best suited for the current user's requirements will be selected
