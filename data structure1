@@ -1,0 +1,18 @@
+data structure name indicates itself that organizing the data in memory.There are many ways of organizing the data in the memory as we have already seen one of the
+data structures i.e., one after another.In  other words,we can say that array stores the elements in a contineous manner.
+this organization of data is done with the help of an array of data structure.
+Tere are also other  ways to organize the data in memory. let's see different type of structures
+The data structure is not any programming language like C,C++,java etc.it is a set of algorithms that we can use in any programming language to strudcture that data 
+in the memory.To structure the data in  memory ,'n' number of algorithms were proposed,and all these algorithms are known abstract  data types.these abstract data types
+are the set of rules.
+Ther are two typed of data structure 
+primitive data structure
+non-primitive data structure
+the primitive data structures are primitive data types.the int, char,flot,double and pointer are the primitive data structure that can hold a single value.
+The non-primitive data structure is divided in yo two types:
+linear data structure
+non linear data structure
+the arrengment of data in a sequential manner is known as linear data structure.The data structure used for this purpose are arreys,linked list,stacks, and queues.
+In these data structure,one element is connected to only one another element in alinear form
+when one element is connected to the n number of elements known as a non-linear data structure.The best example istrees and graphs.In this case, the elements
+are arrenged in a random manner.
