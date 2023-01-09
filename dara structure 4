@@ -1,0 +1,19 @@
+language independent:an algorithm must be language-ingependent so that the instructions in an algorithmcanbe implemented in any of thr language with the same output
+problem:a problem can be a real-world problem or any instance from the real world problem or the set of instructions.The set of instruction is called algorithm.
+algoriythm;An algoritm will be designed for problem which is a stepby step procedure.
+input:after designing an algorithm,the required and the desired inputs are provided to the algorithm.
+processing unit:the input will be given to the processing unit,and the processing unit will produce the desired output.
+output:the output is the outcome or the result oof the program.
+we need algorithm because of thr following reasons;
+scalability:it helps us to understand the scalablity.when we have a big real world problem,we need to scale it downintosmall-small steps to easily analyze the problemd.
+performance:the real-world is not easily broken down in to smaller steps.If the problem can be easily broken in to smaller steps means that the problem is feasiable.
+let's understand the algorithm through a real-world example.suppose we want to make the lemon juice
+step1:first,we will cut lemon into half.
+seep2:squeeze the lemon asmuch you can and take take out its juice in a container
+ step3:add 2 tablespoon sugar init.
+ step 4:stir the container until the sugar gets dissolved.
+ step5:when sugar gets dissolved,add some water and ice in it.
+ store tje juice in fridge for 5 minutes
+ now it is ready to drink.
+ the above real world example can be directly xccompared to the algorithm.we cannot perform the step3 before step2 ,we need to follow the specific order to make 
+ lemon juice.An algorithm alsosays that each and every instruction should be followed in aspecific order to perform a specific task.
