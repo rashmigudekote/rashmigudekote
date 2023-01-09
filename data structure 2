@@ -14,4 +14,5 @@ An ADT tells what is to be done and data structure tells hoe it is to be done.In
 the implementation part.now the question arrises :how can one get to know which data structure to be usd for a perticular ADT?
 As the different data sdtructure can be implemented in a paricular ADT,but the different implementations are compared for time and space. for example,the stack
 ADT can be implemented by both array and linked list.
-suppose the arrays and linked lidt is providing space efficiency,so the one which is the best suited for the current user's requirements will be selected
+suppose the arrays providing time efficiency while the linked list is providing space efficiency,so the one which is the best suited for the current user's 
+requirements will be selected
