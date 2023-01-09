@@ -1,0 +1,16 @@
+the following are the advantagers of a data structure:
+efficiensy:of the choice of a data structure for implementing aperticular ADT is proper, it makes the program very efficient in terms of time and space.
+reusability:the data structure that provides reusability  means that multiple client programs can use the data structure.
+abstraction:the data structure specified by an ADT also provides the level of abstraction.The client cannot see the internal working of the data structure, so 
+it does not have to worry about the implementation part.The client can oly see the interface.
+an algorithem is a process or set of    rules required to perform calculations or some other problem solvingoperation especially by computer.The formal formal
+defination of algorithm is that it contains the finite set of instructionswhich are being carried in a specific order to performthe specific task.
+it is not the complete program or code;it is just a solution(logic) of a porogram ,which can berepresented either as an informal description using a flowchart or pseudocode.
+the following are the charecteeristics of an algorithm,
+input:an algorithm has some input value to the algorithm.
+output:we get one more or more output at the end of  an algorithm
+unambiguity:an algorithm should be unambiguous which means that the instructions in an algorithm should be clear and simple.
+finiteness:An algorithm should have finiteness.Here the finiteness means that thr algorithm should contain limited number of instuction i.e., the instruction 
+should be countable.
+effectiveness:an algorithm should be effective aseach instruction in an algorithm affects the over all process
+
