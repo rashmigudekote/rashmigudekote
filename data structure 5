@@ -1,0 +1,21 @@
+now we will look an example of an algorithm in programming
+we  will write an algorithm to add two numbers entered by the user
+the following are the steps required to add two numbers entered by the users 
+step 1:start 
+step2:declare three variables a,b and sum
+step 3:enter the value of a and b
+step 4: add the values of a and b and store the result in the sum variable i.e., sum=a+b
+step 5:print sum
+step 6:stop
+the following are the factors that we need to consider for designing an algorithm :
+modularity:if any problem is given and we can break that problem in to small-small modules or small-small steps,which is the basic defination of algorithm,it means that this feature has been perfectly 
+designed for the algorithm
+correctness:the correctness of an algorithm is defined as when the given input produce the desired output,which means that the algorithm has been designed
+algorithm.The analysis of an algorithm has done correctly.
+maintainability:here,maintain ability means that the algorithm should be designed in a very simple structured way so that when we redefine the algorithm,no major
+major change will be done in the algorithm.
+functionality:it consider various logicalsteps to solve the real world problems.
+robestness:robestness means that how an algorithm can clearly define our problem.
+user=friendly:if the algorithm is not user-friendly,then the designer will not be able to explain it to the programmer
+simplicity:if the algorithm is simple then it is easy to understand.
+extensibility:if any other algorithm designer or programmer wants to use your algorithm then it should be extinsible.

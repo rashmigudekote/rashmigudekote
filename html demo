@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome To HTML Learning</h1>
+    <h2>Holalkere Gangadharappa Rahul</h2>
+    <p>
+        I am from Bengaluru<hr/>
+        <a href="https://www.youtube.com/@liferaylearn222">Liferay Learning</a> is a <b>platform</b> for <i>learning</i> liferay.
+    </p>
+    <pre>
+        Rahul Holalkere
+        Shiva Woods, NGEF Layout,
+        Nagarabhavi Village Road, 
+        Bengaluru - 560072
+    </pre>
+
+    <h3>Liferay <u>General</u> Information</h3>
+    <hr>
+    <blockquote>
+        Liferay DXP provides the strong technical foundation needed to create and personalize custom digital solutions for an entire ecosystem of users. By providing users with the tools they need, including native commerce and analytics capabilities, Liferay DXP makes it easy to connect users, systems, and data across the entire customer journey. 
+    </blockquote>
+    <hr>
+</body>
+</html>
