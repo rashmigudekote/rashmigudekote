@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<title>importance of algorithm</title>
+	</head>
+		<body>
+			<p>
+			<h1>Imporance of algorithm</h1>
+			<h2>Theoritical importance:</h2>
+						when any real world problems is given to us and we break theproblem in to small-smallmodules.To break down the problem,we should know all the theoritical aspects.
+			<h2>practical importance:</h2>
+						As we know that theory cannot be completed without the practical implementation.So, the importance as both theoritical and practical.
+			<h3><i>issues of algorithms</i></h3>
+						<b>the following are the issues that come while designing an algorithm:</b>
+			<h4><i>how to design algorithm</i><h4>:
+						As we know that an algorithm is a step by step procedure so we must follow some steps to design an algorithm.
+			<h4><i>how to analyze algorithm efficiency:</i><h4>
+						the following are the approches used after considering both the theoretical and practical importance of designing an algorithm
+<pre>
+Optimizing:Finding all the solutions of a problem and then take out the best solution or if the value of the best solution is known then it will terminate if the best solution is known.
+
+Sacrificing:As soon as the best solution is found,then it will stop.
+
+Divide and conquer:It is very implementation of algorithm.It allows you to design an algorithm instep-by-step variation.It breaks down the algorithm to solve the problem in different methods.It allows you 
+to break down the problem in to different methods,and valid output is passed to some other function.
+
+Greedy algorithm:It is an algorithm paradigm that makes an opetimal choice on each iteration with the hope of getting the best solution.It is easy to implement and has a faster execution time.But ,there are very
+rare cases in which it provides optimal solution.
+			
