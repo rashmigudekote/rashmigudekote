@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Approches of algorithm</title>
+		<body>
+			<p>
+			<pre>
+			<b>Dynamic programming:</b>
+					It makes the algorithm more efficient by storing the intermediate results.It follows five different
+                                        steps to find the optimal solution for the problem:
+			1.It breaks down the problem in toa subproblem to find the optimal solution.
+			2.After breaking down the problem, it finds the optimal solution out of these subproblems.
+			3.Stores the result of the subproblems is known as memorization.
+			4.Reuse the result so that it cannot be recomputed for the same subproblems.
+			5.Finally,it computes the result of the complex program.
+
+			<h3>Branch and bound algorithm:</h3>the branch and bound algorithm can be applied to only intrger programmung problems.
+                        this approch divides all the sets of feasible solutions in to maller subsets.These subset are further evaluated to find
+			the best solution.
+			
+			<h3>Randomized algorithm:</h3>As we have seen in aregular algorithm , we have predefined input and ouput.Those algorithm
+			that have some defined set of inputs and reqired output,and follow some described steps are known as deterministic algorithm	
+			what happens that when the random variable is introduced in thr randomized  algorithm?.In the randomized algorithms,some bits 
+			are introduced by the algorithm added in the input to produce the output, which is random in nature.Randomized algorithm are 
+			simpler and efficient than the deterministic algorithm.
+
+			<h3>Backtracking:</h3>Backtracking is an algorithmic technique that solves thr problem recursively and removes the solution if 
+			it does not satisfy the constraints of a program.
+
+			</pre>
+                        </p>
+              </body>
+</html>
